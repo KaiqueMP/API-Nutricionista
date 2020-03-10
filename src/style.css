@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.subTitulo{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.buttonAcess{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #4c89e3;
+    color: #4c89e3;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonAcess:hover{
+    transition: all 0.2s;
+    background-color: #4c89e3;
+    color: white;
+}
+
+header{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 100%;
+    height: 60px;
+    background-color:#4c89e3;
+    color: white;
+    padding: 20px;
+}
+
+.kaique{
+    font-size: 14px;
+    margin-top: -5px;
+    text-decoration: none ;
+    color: white;
+}
+.kaique:hover{
+    transition: all 0.5s;
+    text-decoration: underline;
+}
